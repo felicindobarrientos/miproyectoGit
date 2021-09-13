@@ -7,6 +7,7 @@
 		<script type="text/javascript" src="../../ajax.js"></script>
 		<script type="text/javascript">
 		function buscar(){
+			
 			var d1, contenedor, url;
 			contenedor = document.getElementById('personas');
 			contenedor2 = document.getElementById('persona_seleccionado');
