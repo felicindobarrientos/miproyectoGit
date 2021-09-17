@@ -419,6 +419,7 @@ INSERT INTO _opciones VALUES(26, 3, 'Ficha Técnica de Productos','../privada/re
 INSERT INTO _opciones VALUES(27, 3, 'Rpt de Ventas x su tipo','../privada/reportes/rpt_tipo_ventas.php', 130, now(), now(), 1,1);
 INSERT INTO _opciones VALUES(28, 3, 'Ficha Técnica de Compras','../privada/reportes/fichas_tecnicas_compras.php', 140, now(), now(), 1,1);
 INSERT INTO _opciones VALUES(29, 3, 'Ficha Técnica de Ventas','../privada/reportes/fichas_tecnicas_ventas.php', 150, now(), now(), 1,1);
+INSERT INTO _opciones VALUES(30, 3, 'Rpt Compras x tipo de Moneda','../privada/reportes/rpt_compras_tipo_moneda.php', 160, now(), now(), 1,1);
 
 
 INSERT INTO _accesos VALUES(1, 1, 1, now(), now(), 1,1);
@@ -471,6 +472,7 @@ INSERT INTO _accesos VALUES(42, 26, 1, now(), now(), 1,1);
 INSERT INTO _accesos VALUES(43, 27, 1, now(), now(), 1,1);
 INSERT INTO _accesos VALUES(44, 28, 1, now(), now(), 1,1);
 INSERT INTO _accesos VALUES(45, 29, 1, now(), now(), 1,1);
+INSERT INTO _accesos VALUES(46, 30, 1, now(), now(), 1,1);
 
 
 /*
