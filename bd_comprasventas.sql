@@ -16,6 +16,7 @@ CREATE TABLE empresa(
 CREATE TABLE proveedores(
 	id_proveedor INT NOT NULL AUTO_INCREMENT,
 	id_empresa INT NOT NULL,
+	ci VARCHAR(15) NOT NULL,
 	nombre VARCHAR(30) NOT NULL,
 	direccion VARCHAR(40) NOT NULL,
 	telefono VARCHAR(15) NOT NULL,
@@ -243,16 +244,16 @@ CREATE TABLE _accesos(
 /*****************************************INSERCION DE DATOS**********************************************************/
 INSERT INTO empresa VALUES(1, 'MULTIHERRAMIENTAS', 'logo.png', 'Av. Belgrano', '3435450', now(), now(), 1, 1);
 
-INSERT INTO proveedores VALUES(1, 1, 'BAUMANN REP. S.R.L.', 'Av. Brasil esq. Calle #1 - Santa Cruz','3435450', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(2, 1, 'ELECTRO RED BOLIVIA S.R.L.', 'Av. Ismael Montes y Av. Uruguay La Paz','2282428', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(3, 1, 'FERRETERIA AMERICA IMP. & REP.', 'Calle Uruguay #547 Cochabamba','4229019', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(4, 1, 'HANSA LTDA.', 'Av. 6 de Marzo km 3 - La Paz','2811654', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(5, 1, 'HERRACRUZ S.A.', 'Av. Roca y Coronado N°295 - Santa Cruz','3541073', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(6, 1, 'MERCANTIL LEON S.R.L.', 'Av. Viedma N°51 Santa Cruz','3326174', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(7, 1, 'OXICRUZ', 'Av. Uruguay #733','3346036', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(8, 1, 'SALCEDO IMPORTACIONES S.R.L.', 'Av. Villazon km5 carretera Sacaba - Cbba','4231271', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(9, 1, 'VADIKO S.R.L.', 'Av. Japon #3220 - Santa cruz','3414097', now(), now(), 1, 1);
-INSERT INTO proveedores VALUES(10, 1, 'WAKO IMPORTACIONES S.R.L.', 'Av. Pedro Rivera N°3550 - Santa Cruz','3488929', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(1, 1,'376709022', 'BAUMANN REP. S.R.L.', 'Av. Brasil esq. Calle #1 - Santa Cruz','3435450', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(2, 1,'1020281024', 'ELECTRO RED BOLIVIA S.R.L.', 'Av. Ismael Montes y Av. Uruguay La Paz','2282428', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(3, 1,'742988014', 'FERRETERIA AMERICA IMP. & REP.', 'Calle Uruguay #547 Cochabamba','4229019', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(4, 1,'1020343027', 'HANSA LTDA.', 'Av. 6 de Marzo km 3 - La Paz','2811654', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(5, 1,'157724021', 'HERRACRUZ S.A.', 'Av. Roca y Coronado N°295 - Santa Cruz','3541073', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(6, 1,'143953021', 'MERCANTIL LEON S.R.L.', 'Av. Viedma N°51 Santa Cruz','3326174', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(7, 1,'760206016', 'OXICRUZ', 'Av. Uruguay #733','3346036', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(8, 1,'135529024', 'SALCEDO IMPORTACIONES S.R.L.', 'Av. Villazon km5 carretera Sacaba - Cbba','4231271', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(9, 1,'143789020', 'VADIKO S.R.L.', 'Av. Japon #3220 - Santa cruz','3414097', now(), now(), 1, 1);
+INSERT INTO proveedores VALUES(10, 1,'1578282012', 'WAKO IMPORTACIONES S.R.L.', 'Av. Pedro Rivera N°3550 - Santa Cruz','3488929', now(), now(), 1, 1);
 
 INSERT INTO productos VALUES(1, 8,'Alicate de corte 5"','TR-17314','TRUPER','MEXICO', now(), now(), 1, 1);
 INSERT INTO productos VALUES(2, 8,'Cable c/gancho de stop p/liniero','TR-16023','TRUPER','MEXICO', now(), now(), 1, 1);
